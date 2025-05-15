@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 from sklearn.model_selection import train_test_split
-data = pd.read_csv('F:/Data science/projects/data_analysis/titanic_project/data/Titanic-Dataset.csv')
+
 
 def data_preprocess(data):
     df = data

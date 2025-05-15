@@ -1,0 +1,43 @@
+# TITANIC survival prediction 
+
+this project use Machine Learning to predict wether a passenger survived 
+
+# Data used 
+
+a titanic dataset downloaded from the Kaggle community was used 
+
+variables used : 
+1.passenger class
+2. sex
+3.age
+4.spouse and siblings number
+5.Parch: passenger relationship 
+6.Fare
+7. embarked 
+8.family size
+
+#data preprocessing steps
+
+1. mapped sex to 0 and 1 for males and females 
+2. replaced missing values in Embarked with sex
+3. replaced missing age values with Mean age 
+4. encoded the embarked with PD get dummies 
+6. split the data into features and variables 
+7.split them into train and test split 
+
+#model selection steps
+evaluate variable models in their base forms and Random forest performed better 
+- used gridsearch cv to select the best parameters then use it in training and evaluation 
+
+#deployment 
+- used FLask API 
+
+#challenges 
+
+New to creating API endpoints using Flask therefore this step was AI assisted to understand path management
+organizing the code into repository that they can be connected well 
+
+Lesson learned 
+- using FLASK to create end point API 
+- possibility of pipeline everything in one notebook file that can be runned without a whole folder 
+- in future to learn how to create this jupyter notebook
