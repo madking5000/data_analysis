@@ -1,18 +1,35 @@
-# INTRODUCTION 
+# FORMAT OF NOTEBOOK 
 
-Child and Maternal Health is  critical issue, The UN expects by 2030, countries to end preventable death of 
-Newborns and Under 5 years children. With the aim to reduce to at least as low as 25 per 1000
+##### overview (markdown)
+#### introduction
+##### problem statement 
 
-parallel to child mortality, also there is maternal mortality in 2017 accounted for 295000, and 94% of these occured in LMICs, in which most can be Prevented. 
 
-Cardiotocogram is small cost effective tool that use ultrasound waves to assess both fetal and maternal health, allowing healthcare professionals to take action immediately 
+### data exploration (markdown )
 
-The data contains features that were extracted from CTG and were classified into three categories 
-- Normal
-- Suspect
-- pathological
+#### Feature names , target variables 
 
-our objective is to build a model that can categorize these features into one of the three categories. 
+
+#### explore relationship between features and variables 
+
+#### perform a statistical test to evaluate if the relationship is by chance or not then an explanation behind 
+
+
+
+##### data preprocessing 
+
+##### Model training and evaluation 
+
+
+#### explanation of the result of evaluation
+
+
+#### choosing the best model and evaluate the best parameters 
+
+
+##### save the model 
+
+#### conclusion 
 
 
 
